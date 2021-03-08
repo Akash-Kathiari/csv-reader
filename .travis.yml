@@ -5,8 +5,5 @@ language: node_js
 node js:
   - node
 
-install:
-  -npm ci
-
 script:
-  -npm coveralls
+  -npm test:coveralls
